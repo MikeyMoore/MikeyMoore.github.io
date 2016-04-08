@@ -1,3 +1,30 @@
 body {
 	background:gray;
 }
+.Grey_Jedi {
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+}
+.intro {
+	border:2px solid black;
+	padding: 50px;
+	margin: 50px;
+}
+#lightsaber {
+	background-image: url("Lightsaber.jpg");
+	color:red;
+	height:600px;
+}
+h2 {
+	font-family: fantasy;
+}
+a:link: {
+	color:blue;
+}
+a:visited {
+	color:purple;
+}
+a:hover {
+	color:green;
+}
