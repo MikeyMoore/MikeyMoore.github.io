@@ -49,4 +49,7 @@ a:hover {
 	.intro {
 		border:2px solid white;
 	}
+	#lightsaber p {
+		color:red;
+	}
 }
