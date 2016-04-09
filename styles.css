@@ -28,3 +28,25 @@ a:visited {
 a:hover {
 	color:green;
 }
+
+@media only screen and (orientation:landscape) {
+	body {
+		max-width:50%;
+		font-size:150%;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:black;
+	}
+	p {
+		color:white;
+	}
+	table {
+		color:white;
+	}
+	div {
+		color:white;
+	}
+	.intro {
+		border:2px solid white;
+	}
+}
