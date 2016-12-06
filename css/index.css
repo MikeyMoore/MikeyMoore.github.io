@@ -2,3 +2,15 @@
   background-color: black;
   color:white;
 }
+
+ul {
+  list-style-type:none;
+}
+
+.menu a{
+  text-decoration:none;
+}
+
+.active {
+  color:red;
+}
