@@ -11,25 +11,50 @@ a {
   color:white;
 }
 
+
+#music {
+  border:1px solid red;
+}
+
 .menu a{
   text-decoration:none;
-  float:right;
   padding:0 10px 0 10px;
+}
+
+.menu nav ul li{
+  display:inline-block;
+  font-size:20px;
+}
+
+nav {
+  position:fixed;
+}
+
+#background-splash {
+  background-image:url("../imgs/tempbackground.png");
+  height:500px;
+  width:100%;
+  margin:0;
+  padding:0;
+  position:absolute;
+  opacity:.4;
 }
 
 .active {
   color:red;
 }
 
-.break {
+/*.break {
   clear:both;
-}
+}*/
 
 .firstimpressions {
+  margin-top:150px;
   margin-left:auto;
   margin-right:auto;
   width: 14em;
   text-align:center;
+  position:relative;
 }
 
 .firstimpressions img {
@@ -40,11 +65,11 @@ a {
   text-align:center;
   margin-right:auto;
   margin-left:auto;
-  width:25%;
+  /*width:25%;*/
   max-height:400px;
   background-color:white;
   color:black;
-  border-radius:50%;
+  /*border-radius:50%;*/
 }
 
 .grey {
