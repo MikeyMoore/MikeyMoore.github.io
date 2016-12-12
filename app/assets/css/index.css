@@ -9,25 +9,24 @@ ul {
 
 a {
   color:white;
-}
-
-
-#music {
-  border:1px solid red;
+  text-decoration:none;
 }
 
 .menu a{
-  text-decoration:none;
   padding:0 10px 0 10px;
+}
+
+.menu {
+  float:right;
+  position:fixed;
+  font-size:20px;
+  margin:-100px 0 0 0;
 }
 
 .menu nav ul li{
   display:inline-block;
-  font-size:20px;
-}
-
-nav {
-  position:fixed;
+  background-color:#333333;
+  border-radius:10%;
 }
 
 #background-splash {
@@ -52,45 +51,41 @@ nav {
   margin-top:150px;
   margin-left:auto;
   margin-right:auto;
-  width: 14em;
+  width: 16em;
   text-align:center;
   position:relative;
+  /*border:solid 1px red;*/
 }
 
 .firstimpressions img {
   border-radius:140px;
 }
 
-#bio {
-  text-align:center;
-  margin-right:auto;
-  margin-left:auto;
-  /*width:25%;*/
-  max-height:400px;
-  background-color:white;
-  color:black;
-  /*border-radius:50%;*/
-}
 
 .grey {
   background-color:grey;
-  height: 80em;
+  height: 600px;
   margin:0;
-  padding:0;
-}
-
-#contact {
-  /*background-image:url("../imgs/tempcontact.png");*/
-  background-repeat:no-repeat;
-  height:500px;
-  margin-right:auto;
-  margin-left:auto;
+  /*padding:0;*/
   text-align:center;
-  border:1px solid red;
-  width:250px
+  padding:200px;
 }
 
-#contact p {
-  /*margin:50 50 50 50;*/
-  color:black;
+.black {
+  background-color:black;
+  height: 600px;
+  margin:0;
+  /*padding:0;*/
+  text-align:center;
+  padding:200px;
+}
+
+.blg-circle {
+  background-color:blue;
+  width:200px;
+  height:200px;
+  border-radius:200px;
+  line-height:200px;
+  vertical-align:middle;
+  margin-bottom:40px;
 }
