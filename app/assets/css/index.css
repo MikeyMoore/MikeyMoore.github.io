@@ -13,7 +13,7 @@ a {
 
 
 #music {
-  border:1px solid red;
+  /*border:1px solid red;*/
 }
 
 .menu a{
@@ -80,9 +80,20 @@ a {
 
 .grey {
   background-color:grey;
-  height: 80em;
+  height: 600px;
   margin:0;
-  padding:0;
+  /*padding:0;*/
+  text-align:center;
+  padding:200px;
+}
+
+.black {
+  background-color:black;
+  height: 600px;
+  margin:0;
+  /*padding:0;*/
+  text-align:center;
+  padding:200px;
 }
 
 #contact {
@@ -92,16 +103,11 @@ a {
   margin-right:auto;
   margin-left:auto;
   text-align:center;
-  border:1px solid red;
+  /*border:1px solid red;*/
   width:250px
 }
 
 #contact p {
   /*margin:50 50 50 50;*/
-  color:black;
-}
-
-#blog {
-  text-align:center;
-  padding:200px;
+  color:white;
 }
