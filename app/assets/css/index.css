@@ -9,17 +9,11 @@ ul {
 
 a {
   color:white;
-}
-
-
-#music {
-  /*border:1px solid red;*/
+  text-decoration:none;
 }
 
 .menu a{
-  text-decoration:none;
   padding:0 10px 0 10px;
-  /*border:solid 1px red;*/
 }
 
 .menu {
@@ -27,12 +21,12 @@ a {
   position:fixed;
   font-size:20px;
   margin:-100px 0 0 0;
-  /*border:solid 1px blue;*/
 }
 
 .menu nav ul li{
   display:inline-block;
   background-color:#333333;
+  border-radius:10%;
 }
 
 #background-splash {
@@ -84,4 +78,14 @@ a {
   /*padding:0;*/
   text-align:center;
   padding:200px;
+}
+
+.blg-circle {
+  background-color:blue;
+  width:200px;
+  height:200px;
+  border-radius:200px;
+  line-height:200px;
+  vertical-align:middle;
+  margin-bottom:40px;
 }
