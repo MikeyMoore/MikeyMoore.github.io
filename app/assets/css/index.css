@@ -78,3 +78,19 @@ nav {
   margin:0;
   padding:0;
 }
+
+#contact {
+  /*background-image:url("../imgs/tempcontact.png");*/
+  background-repeat:no-repeat;
+  height:500px;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+  border:1px solid red;
+  width:250px
+}
+
+#contact p {
+  /*margin:50 50 50 50;*/
+  color:black;
+}
