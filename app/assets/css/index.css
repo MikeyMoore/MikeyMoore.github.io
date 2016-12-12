@@ -80,7 +80,7 @@ nav {
 }
 
 #contact {
-  background-image:url("../imgs/tempcontact.png");
+  /*background-image:url("../imgs/tempcontact.png");*/
   background-repeat:no-repeat;
   height:500px;
   margin-right:auto;
