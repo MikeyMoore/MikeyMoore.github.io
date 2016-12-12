@@ -19,15 +19,20 @@ a {
 .menu a{
   text-decoration:none;
   padding:0 10px 0 10px;
+  /*border:solid 1px red;*/
+}
+
+.menu {
+  float:right;
+  position:fixed;
+  font-size:20px;
+  margin:-100px 0 0 0;
+  /*border:solid 1px blue;*/
 }
 
 .menu nav ul li{
   display:inline-block;
-  font-size:20px;
-}
-
-nav {
-  position:fixed;
+  background-color:#333333;
 }
 
 #background-splash {
@@ -52,9 +57,10 @@ nav {
   margin-top:150px;
   margin-left:auto;
   margin-right:auto;
-  width: 14em;
+  width: 16em;
   text-align:center;
   position:relative;
+  /*border:solid 1px red;*/
 }
 
 .firstimpressions img {
@@ -93,4 +99,9 @@ nav {
 #contact p {
   /*margin:50 50 50 50;*/
   color:black;
+}
+
+#blog {
+  text-align:center;
+  padding:200px;
 }
